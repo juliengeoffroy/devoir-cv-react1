@@ -1,0 +1,84 @@
+h3 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.address1 {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.address1 img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.address1 a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+}
+
+.address2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.address2 img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.address2 a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: blue;
+}
+
+.address3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.address3 img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.address3 a {
+    text-decoration: none;
+    padding-left: 7px;
+    color: blue;
+}
+
+.hebergeur {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.hebergeur img {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.hebergeur a {
+    text-decoration: none;
+    padding-left: 7px;
+    color: blue;
+}
+

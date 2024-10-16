@@ -1,0 +1,155 @@
+main {
+    background-color: #EEE;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* section présentation */
+
+.presentation {
+    background-image: url(/img/hero-bg.jpg);
+    background-size: cover;
+    opacity: 0.3 #444;
+    width: 100%;
+    height: 50rem;
+    padding: 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #EEE;
+    padding-top: 16rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #EEE;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+button {
+    background-color: #0d6efd;
+    color: #EEE;
+    font-weight: bold;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* section à propos */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h3 {
+    color: #444;
+    font-weight: 600;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+.apropos p {
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+
+hr {
+    border: none;
+    border-top: 2px double blue;
+    color: blue;
+    overflow: visible;
+    text-align: center;
+    margin-left: 1rem;
+    height: 5px;
+    opacity: 1.25;
+  }
+
+img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+
+
+@media (max-width:1690px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+@media (max-width:1120px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+      }
+}
+
+@media (max-width:700px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+    h1 {
+        display: flex;
+        text-align: center;
+    }
+    h2 {
+        display: flex;
+        text-align: center;
+    }
+    h3 {
+    margin: 0;
+    padding: 10px;
+    }
+    hr {
+        margin: 0;
+    }
+    .apropos p {
+        margin: 0;
+    }
+    img {
+        margin: 0;
+        padding: 0;
+
+    }
+}

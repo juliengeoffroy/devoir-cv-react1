@@ -1,0 +1,23 @@
+.progressbar {
+    background-color: white;
+    display: block;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.progressbar p {
+    text-transform: uppercase;
+  
+}
+
+@media (max-width:700px) {
+   .progressbar {
+    margin: 1rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    padding-bottom: 10px;
+   }
+}
+

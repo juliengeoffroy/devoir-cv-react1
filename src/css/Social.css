@@ -1,0 +1,36 @@
+.social-container {
+    background: #EEE;
+    img {
+    width: 40px;
+    padding: 10px;
+  }
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    text-align: left;
+     
+}
+
+.GitHub {
+    margin: 32px;
+    color: rgb(62, 61, 61);
+}
+
+.Twitter {
+    margin: 10px;
+    color: rgb(62, 61, 61);
+}
+
+.Linkedin {
+    margin: 32px;
+    color: rgb(62, 61, 61);
+}
+
+a.social:hover {
+    
+    opacity: 50%;
+}
+
